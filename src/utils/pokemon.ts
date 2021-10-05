@@ -5,17 +5,17 @@ export interface Pokemon {
   dexNr: number;
 }
 
-interface Choice {
+export interface Choice {
   type: string;
   pokemons: Pokemon[];
 }
 
-interface ChoicePerson {
+export interface ChoicePerson {
   person: string;
   choices: Choice[];
 }
 
-interface AlolaPerson {
+export interface AlolaPerson {
   person: string;
   pokemons: Pokemon[];
 }
