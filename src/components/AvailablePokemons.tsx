@@ -11,7 +11,7 @@ const modalWindowCss: string =
 
 const createAvailablePokemonDiv = (): JSX.Element => {
   const layout: JSX.Element = (
-    <div className="flex gap-2">
+    <div className="flex gap-2 w-max p-1 pr-1">
       {PokemonData.map((data: ChoicePerson | AlolaPerson) => {
         switch (data.person) {
           case "left": {
@@ -92,7 +92,7 @@ export const AvailablePokemons: React.FC<Props> = () => {
       <div
         className={classNames(
           modalWindowCss,
-          isSettingOpen ? "right-2 overflow-y-auto" : "-right-full"
+          isSettingOpen ? "right-2 overflow-y-auto overflow-x-hidden" : "-right-full"
         )}
         style={isSettingOpen ? { maxHeight: "95%" } : {}}
       >
