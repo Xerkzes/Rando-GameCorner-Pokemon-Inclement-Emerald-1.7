@@ -99,7 +99,6 @@ export const RandoPokemon: React.FC<Props> = () => {
         .then((response) => response.json())
         .then((data) => data);
 
-      console.log(data);
       setPokemonData(data);
     };
     fetching();
