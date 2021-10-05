@@ -1,0 +1,159 @@
+[
+  {
+    "person": "left",
+    "choices": [
+      {
+        "type": "Grass",
+        "pokemons": [
+          {
+            "name": "Bulbasaur",
+            "dexNr": 1
+          },
+          {
+            "name": "Chikorita",
+            "dexNr": 152
+          },
+          {
+            "name": "Treecko",
+            "dexNr": 252
+          },
+          {
+            "name": "Turtwig",
+            "dexNr": 387
+          },
+          {
+            "name": "Snivy",
+            "dexNr": 495
+          },
+          {
+            "name": "Chespin",
+            "dexNr": 650
+          },
+          {
+            "name": "Rowlet",
+            "dexNr": 722
+          }
+        ]
+      },
+      {
+        "type": "Fire",
+        "pokemons": [
+          {
+            "name": "Charmander",
+            "dexNr": 4
+          },
+          {
+            "name": "Cyndaquil",
+            "dexNr": 155
+          },
+          {
+            "name": "Torchic",
+            "dexNr": 255
+          },
+          {
+            "name": "Chimchar",
+            "dexNr": 390
+          },
+          {
+            "name": "Tepig",
+            "dexNr": 498
+          },
+          {
+            "name": "Fennekin",
+            "dexNr": 653
+          },
+          {
+            "name": "Litten",
+            "dexNr": 725
+          }
+        ]
+      },
+      {
+        "type": "Water",
+        "pokemons": [
+          {
+            "name": "Squirtle",
+            "dexNr": 7
+          },
+          {
+            "name": "Totodile",
+            "dexNr": 158
+          },
+          {
+            "name": "Mudkip",
+            "dexNr": 258
+          },
+          {
+            "name": "Piplup",
+            "dexNr": 393
+          },
+          {
+            "name": "Oshawott",
+            "dexNr": 501
+          },
+          {
+            "name": "Froakie",
+            "dexNr": 656
+          },
+          {
+            "name": "Popplio",
+            "dexNr": 728
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "person": "middle",
+    "pokemons": [
+      {
+        "name": "Porygon",
+        "dexNr": 137
+      },
+      {
+        "name": "Munchlax",
+        "dexNr": 446
+      },
+      {
+        "name": "Vulpix-Alola",
+        "dexNr": 37
+      },
+      {
+        "name": "Sandshrew-Alola",
+        "dexNr": 28
+      },
+      {
+        "name": "Rattata-Alola",
+        "dexNr": 19
+      },
+      {
+        "name": "Meowth-Alola",
+        "dexNr": 52
+      },
+      {
+        "name": "Grimer-Alola",
+        "dexNr": 88
+      },
+      {
+        "name": "Diglett-Alola",
+        "dexNr": 50
+      },
+      {
+        "name": "Geodude-Alola",
+        "dexNr": 74
+      },
+      {
+        "name": "Raichu-Alola",
+        "dexNr": 26
+      },
+      {
+        "name": "Marowak-Alola",
+        "dexNr": 105
+      },
+      {
+        "name": "Exeggutor-Alola",
+        "dexNr": 103
+      }
+    ]
+  }
+]
