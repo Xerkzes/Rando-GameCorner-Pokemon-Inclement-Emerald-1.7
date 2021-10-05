@@ -23,7 +23,7 @@ const createAvailablePokemonDiv = (): JSX.Element => {
                 <div>
                   {lPerson.choices.map((choice: Choice) => {
                     return (
-                      <div className="mt-2">
+                      <div key={choice.type} className="mt-2">
                         <p
                           className="font-bold text-center"
                           style={{ backgroundColor: typeColors[choice.type.toLowerCase()] }}
@@ -32,7 +32,11 @@ const createAvailablePokemonDiv = (): JSX.Element => {
                         </p>
                         <div>
                           {choice.pokemons.map((pokemon: Pokemon) => {
-                            return <p className="text-white">{pokemon.name}</p>;
+                            return (
+                              <p key={pokemon.name} className="text-white">
+                                {pokemon.name}
+                              </p>
+                            );
                           })}
                         </div>
                       </div>
@@ -51,7 +55,11 @@ const createAvailablePokemonDiv = (): JSX.Element => {
                 <p className="text-center text-cyan-200 text-xl uppercase">{mPerson.person}</p>
                 <div>
                   {mPerson.pokemons.map((pokemon: Pokemon) => {
-                    return <p className="text-white">{pokemon.name}</p>;
+                    return (
+                      <p key={pokemon.name} className="text-white">
+                        {pokemon.name}
+                      </p>
+                    );
                   })}
                 </div>
               </div>
